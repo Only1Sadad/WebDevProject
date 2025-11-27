@@ -1,0 +1,216 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    background-color: black;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+.main-career{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+.body-style{
+    max-width: 1000px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 27px;
+    text-align: center;
+    background-color: #854836;
+    color: #F7F7F7;
+    margin: auto;
+    padding: 20px;
+}
+#todays-date{
+    color: red;
+    text-align: right;
+    font-style: italic;
+    font-size: 12px;
+    margin-bottom: 10px;
+
+}
+.navigation-style{
+    color: #FFB22C;
+    margin-left: 80%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+nav a:hover{
+    color: #F7F7F7;
+    text-decoration: underline;
+}
+.navigation-cover{
+    color: #FFB22C;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-decoration: unset; 
+    border: 2px solid;
+    padding: 10px;
+}
+.navigation-career{
+    color: #FFB22C;
+    margin-left: 80%;
+    background-color: black;
+}
+.career-style{
+    background-color: black;
+    font-size: 38px;
+    max-width: 1000px;
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin:auto;
+    white-space: pre-line;
+}
+.footer-resume{
+    font-style: italic;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(198, 10, 10);
+    font-size:12px;
+    text-align: center;
+}
+.footer-cover{
+    font-style: italic;
+    font-family:Arial, Helvetica, sans-serif;
+    font: size 15px;
+    text-align: center;
+}
+.cover-mark{
+    background-color: #FFB22C;;
+}
+.footer-career{
+    font-style: italic;
+    font-family:Arial, Helvetica, sans-serif;
+    font: size 15px;
+    text-align: center;
+    color: #FFB22C;
+    text-decoration:solid;
+    margin-top:5%;
+}
+.footer-cite{
+    text-decoration: underline;
+    color: #FFB22C;
+}
+footer p, a{
+    color: #CCCCCC;
+}
+
+
+.socials{
+    text-align: center;
+}
+.email,
+.github,
+.linkedin
+{
+    display:inline-block;
+    margin:0 15px;
+    
+}
+.email a,
+.linkedin a,
+.github a {
+    color: #FFB22C;
+    text-decoration: none;
+}
+.email a:hover,
+.linkedin a:hover,
+.github a:hover {
+    color: #F7F7F7;
+    text-decoration: underline;
+}
+
+.school-header{
+    display: flex;
+    justify-content: space-between;
+}
+.job-header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.job-title, .job-company, .job-date{
+    margin: 0;
+    line-height: 1.2;
+} 
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-bottom: 2px solid #FFB22C;
+}
+.career-header{
+    color: #FFB22C;
+    font-size: 27px;
+}
+h1 {
+    color: #FFB22C;
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+}
+
+h3 {
+    color: #FFB22C;
+    margin: 20px 0 10px;
+    padding-bottom: 5px;
+}
+
+h4 {
+    color: whitesmoke;
+    margin-top: 16px;
+}
+
+h5 {
+    color: #CCCCCC;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+table {
+    width: 100%;
+    margin: 20px 0;
+    background-color: rgb(34, 31, 31);
+    border-radius: 8px;
+    overflow: hidden;
+}
+th {
+    color: white;
+    padding: 15px;
+    text-align: left;
+}
+td {
+    padding: 15px;
+}
+.span-cover{
+    color:#FFB22C ;
+    font-weight:lighter;
+}
+ul {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+li {
+    list-style-type: circle;
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+video{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+audio{
+    display: block;
+    text-align: center;
+}
